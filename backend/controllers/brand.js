@@ -1,4 +1,4 @@
-const month = require('../inventories/brand.json');
+const month = require('../controllers/mongo.js');
 
 // console.log(month);
 // const fs = require('fs');
