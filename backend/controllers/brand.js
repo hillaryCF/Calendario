@@ -1,5 +1,5 @@
 const month = require('../controllers/mongo.js');
-
+const dataBase = require('../inventories/config.json');
 // console.log(month);
 // const fs = require('fs');
 // const path = require('path');
@@ -9,9 +9,8 @@ const {
   // throwErr
 } = require('../controllers/funcion.js');
 
-
 function GET(req, res) {
-  end(res,{data: month})
+  end(res,{data: dataBase})
 }
 
 // function POST(req, res) {

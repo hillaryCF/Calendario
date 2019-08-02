@@ -7,7 +7,7 @@ const mongodb = require('./controllers/mongo.js')
 const routes = {
   cars:{
     path: '/api/v1/cars',
-    controller: brandcontroller,
+    controller: mongodb,
   },
   brands:{
     path: '/api/v1/brands',
