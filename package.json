@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/hillaryCF/Calendario#readme",
   "dependencies": {
-    "mongodb": "^3.3.0-beta2"
+    "mongodb": "^3.7.4"
   }
 }
